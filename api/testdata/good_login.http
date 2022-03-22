@@ -1,0 +1,158 @@
+HTTP/1.1 200 OK
+Content-Length: 3631
+Accept-Ranges: bytes
+Connection: keep-alive
+Content-Type: application/json; charset=utf-8
+Date: Tue, 29 Mar 2022 12:58:18 GMT
+Set-Cookie: TOKEN=omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omit; path=/; samesite=none; secure; httponly
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Csrf-Token: omitted-omitted-omitted-omitted-omit
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Response-Time: 172ms
+X-Xss-Protection: 1; mode=block
+
+{
+  "unique_id": "omitted-omitted-omitted-omitted-omit",
+  "first_name": "API",
+  "last_name": "API",
+  "full_name": "API API",
+  "email": "",
+  "email_status": "UNVERIFIED",
+  "phone": "",
+  "avatar_relative_path": "",
+  "avatar_rpath2": "",
+  "status": "ACTIVE",
+  "employee_number": "",
+  "create_time": 1647767166,
+  "extras": {},
+  "username": "api",
+  "local_account_exist": true,
+  "password_revision": 1647956269,
+  "sso_account": "",
+  "sso_uuid": "",
+  "sso_username": "",
+  "sso_picture": "",
+  "uid_sso_id": "",
+  "uid_sso_account": "",
+  "groups": [
+    {
+      "unique_id": "omitted-omitted-omitted-omitted-omit",
+      "name": "Dream-Machine-Special-Edition",
+      "up_id": "",
+      "up_ids": [],
+      "system_name": "Dream-Machine-Special-Edition",
+      "create_time": "2022-03-09T20:39:25+02:00"
+    }
+  ],
+  "roles": [
+    {
+      "unique_id": "omitted-omitted-omitted-omitted-omit",
+      "name": "Viewer",
+      "system_role": true,
+      "system_key": "viewer",
+      "level": 4,
+      "create_time": "2022-03-09T20:12:39+02:00",
+      "update_time": "2022-03-09T20:12:39+02:00"
+    }
+  ],
+  "permissions": {
+    "access.management": [
+      "readonly"
+    ],
+    "led.management": [
+      "readonly"
+    ],
+    "network.management": [
+      "readonly"
+    ],
+    "protect.management": [
+      "readonly"
+    ],
+    "system.management.location": [
+      "readonly"
+    ],
+    "system.management.user": [
+      "readonly"
+    ],
+    "talk.management": [
+      "readonly"
+    ]
+  },
+  "scopes": [
+    "write:protect.user:$",
+    "view:user_timezone",
+    "view:user",
+    "view:systemlog",
+    "view:settings",
+    "view:role",
+    "view:permission",
+    "view:notification",
+    "view:location_policy",
+    "view:location_device",
+    "view:location_activity",
+    "view:location",
+    "view:holiday_timezone",
+    "view:holiday",
+    "view:group",
+    "view:door_group",
+    "view:controller:talk",
+    "view:controller:protect",
+    "view:controller:network",
+    "view:controller:led",
+    "view:controller:access",
+    "view:cloud_access",
+    "view:app:users",
+    "view:app:settings",
+    "view:app:locations",
+    "view:access.visitor",
+    "view:access.systemlog",
+    "view:access.settings",
+    "view:access.schedule",
+    "view:access.policy",
+    "view:access.pin_code",
+    "view:access.nfc_card",
+    "view:access.face",
+    "view:access.device",
+    "view:access.dashboard",
+    "systemlog:user",
+    "systemlog:system",
+    "systemlog:location",
+    "systemlog:access",
+    "readmedia:protect.camera",
+    "read:protect.viewer",
+    "read:protect.user:$",
+    "read:protect.sensor",
+    "read:protect.nvr",
+    "read:protect.light",
+    "read:protect.doorlock",
+    "read:protect.display",
+    "read:protect.chime",
+    "read:protect.camera",
+    "read:protect.bridge",
+    "read:network-site:all",
+    "read:network-site:omitted-omitted-omitted-",
+    "notify:user",
+    "notify:location",
+    "notify:access",
+    "edit:os-settings:support_file",
+    "edit:feedback",
+    "delete:protect.user:$",
+    "create:protect.liveview"
+  ],
+  "cloud_access_granted": false,
+  "update_time": 1647956269,
+  "avatar": null,
+  "nfc_token": "",
+  "nfc_display_id": "",
+  "nfc_card_type": "",
+  "nfc_card_status": "",
+  "id": "omitted-omitted-omitted-omitted-omit",
+  "isOwner": false,
+  "isSuperAdmin": false,
+  "isMember": false,
+  "deviceToken": "omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omi"
+}

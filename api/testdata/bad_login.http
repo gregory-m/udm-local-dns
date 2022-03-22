@@ -1,0 +1,22 @@
+HTTP/1.1 401 Unauthorized
+Content-Length: 56
+Accept-Ranges: bytes
+Connection: keep-alive
+Content-Type: application/json; charset=utf-8
+Date: Sun, 03 Apr 2022 12:29:14 GMT
+Set-Cookie: TOKEN=omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omit; path=/; samesite=none; secure; httponly
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Csrf-Token: omitted-omitted-omitted-omitted-omit
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Response-Time: 797ms
+X-Xss-Protection: 1; mode=block
+
+{
+  "errors": [
+    "Invalid username or password"
+  ]
+}
