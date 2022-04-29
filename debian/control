@@ -1,0 +1,22 @@
+Source: udm-local-dns
+Maintainer: Man Gregory <man.gregory@gmail.com>
+Section: utils
+Priority: optional
+Homepage: https://github.com/gregory-m/udm-local-dns
+Testsuite: autopkgtest-pkg-go
+Build-Depends: debhelper-compat (= 13),
+               dh-golang,
+               golang-any,
+               golang-toml-dev
+Rules-Requires-Root: no
+XS-Go-Import-Path: github.com/gregory-m/udm-local-dns
+
+Package: udm-local-dns
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Built-Using: ${misc:Built-Using}
+Description: generates DNS entries for client devices.
+  udm-local-dns polls Network controller API 
+  and generates new dnsmasq configuration 
+  if network client list changes.

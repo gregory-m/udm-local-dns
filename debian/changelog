@@ -1,0 +1,5 @@
+udm-local-dns (0.0.1-1) stretch; urgency=medium
+
+  * Initial packaging.
+
+ -- Gregory Man <man.gregory@gmail.com>  Fri, 29 Apr 2022 15:42:09 +0300
