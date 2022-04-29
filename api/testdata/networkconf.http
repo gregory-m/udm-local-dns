@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Connection: keep-alive
+Content-Type: application/json;charset=UTF-8
+Date: Sun, 10 Apr 2022 12:15:27 GMT
+Set-Cookie: TOKEN=omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omitted-omit; path=/; samesite=none; secure; httponly
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: accept-encoding
+X-Content-Type-Options: nosniff
+X-Csrf-Token: omitted-omitted-omitted-omitted-omit
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+
+5f8
+{"meta":{"rc":"ok"},"data":[{"_id":"6228f3b2f7412a097be95b04","attr_no_delete":true,"attr_hidden_id":"WAN","wan_networkgroup":"WAN","site_id":"6228f3a6f7412a097be95af0","purpose":"wan","name":"Default (WAN1)","wan_type":"dhcp","wan_provider_capabilities":{"download_kilobits_per_second":68000,"upload_kilobits_per_second":5000},"wan_dns_preference":"auto","setting_preference":"auto","mac_override_enabled":false,"wan_vlan_enabled":false,"wan_type_v6":"disabled","wan_smartq_enabled":false},{"_id":"6228f3b2f7412a097be95b05","wan_networkgroup":"WAN2","site_id":"6228f3a6f7412a097be95af0","purpose":"wan","name":"Backup (WAN2)","wan_type":"dhcp","wan_load_balance_type":"failover-only","attr_no_delete":true,"wan_dns_preference":"auto","setting_preference":"auto"},{"_id":"6228f3b2f7412a097be95b06","attr_no_delete":true,"attr_hidden_id":"LAN","name":"Default","site_id":"6228f3a6f7412a097be95af0","vlan_enabled":false,"purpose":"corporate","ip_subnet":"192.168.1.1/24","ipv6_interface_type":"none","domain_name":"man-family.com","is_nat":true,"dhcpd_enabled":true,"dhcpd_start":"192.168.1.6","dhcpd_stop":"192.168.1.254","dhcpdv6_enabled":false,"ipv6_ra_enabled":false,"lte_lan_enabled":true,"auto_scale_enabled":true,"networkgroup":"LAN","setting_preference":"manual","dhcpd_leasetime":86400,"dhcpd_dns_enabled":false,"dhcpd_gateway_enabled":false,"dhcpd_time_offset_enabled":false,"ipv6_pd_start":"::2","ipv6_pd_stop":"::7d1","gateway_type":"default","nat_outbound_ip_addresses":[],"enabled":true,"dhcp_relay_enabled":false}]}
+0
+
