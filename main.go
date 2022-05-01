@@ -17,7 +17,7 @@ import (
 )
 
 const pidFileName = "/run/dnsmasq.pid"
-const confFileName = "/run/dnsmasq.conf.d/my-dns.conf"
+const confFileName = "/run/dnsmasq.conf.d/local-dns.conf"
 const sleepTime = 30
 
 var client *http.Client
