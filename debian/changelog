@@ -1,3 +1,10 @@
+udm-local-dns (0.0.2-2) stretch; urgency=medium
+
+  * Changed service unit to restart daemon
+
+ -- Gregory Man <man.gregory@gmail.com>  Sun, 01 May 2022 16:09:02 +0300
+
+
 udm-local-dns (0.0.2-1) stretch; urgency=medium
 
   * Changed config filename.

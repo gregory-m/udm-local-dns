@@ -4,6 +4,8 @@ Requires=udapi-server.service
 
 [Service]
 ExecStart=/usr/bin/udm-local-dns -config /etc/local-dns.toml
+Restart=always
+RestartSec=30
 
 [Install]
 WantedBy=multi-user.target
