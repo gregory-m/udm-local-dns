@@ -1,3 +1,10 @@
+udm-local-dns (0.0.2-1) stretch; urgency=medium
+
+  * Changed config filename.
+
+ -- Gregory Man <man.gregory@gmail.com>  Sun, 01 May 2022 15:35:55 +0300
+
+
 udm-local-dns (0.0.1-4) stretch; urgency=medium
 
   * Changed debhelper-compat version and added local-dns.toml to install file
