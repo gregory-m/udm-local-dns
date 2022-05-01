@@ -1,0 +1,4 @@
+URL = "http://127.0.0.1"
+Username = "api"
+Password = "Secret"
+Site = "default"

@@ -1,0 +1,9 @@
+[Unit]
+Description=Generates DNS entries for client devices
+Requires=udapi-server.service
+
+[Service]
+ExecStart=/usr/bin/udm-local-dns -config /etc/local-dns.toml
+
+[Install]
+WantedBy=multi-user.target
