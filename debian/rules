@@ -8,3 +8,7 @@ override_dh_auto_install:
 
 override_dh_installsystemd:
 	dh_installsystemd --no-start --no-enable
+
+override_dh_builddeb:
+	# UDM use old dpkg version of dpkg without zst support
+	dh_builddeb -- -Zgzip
